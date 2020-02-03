@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:id="@+id/image"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PostTilte"
+        android:id="@+id/postTitle"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        style="@style/TextAppearance.AppCompat.Title"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PostDetails"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:id="@+id/postDetails"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_margin="2dp"
+
+        />
+
+</LinearLayout>
